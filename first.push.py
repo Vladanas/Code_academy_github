@@ -75,3 +75,19 @@ print(PP.title)
 print(H.author)
 print(WP.get_title())
 print(PP.get_author())
+
+
+                        # Task 4
+
+class coutry
+    def __init__(self, name, population, area):
+        self.name = name
+        self.population = population
+        self.area = area
+        self.is_big = self.check_if_big()
+        self.population_density = self.population / self.area
+
+    def check_if_big(self)
+        return  self.population > 15000000 or self.area > 3000000
+
+    def compare_population_density(self, other_coutry)
