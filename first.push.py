@@ -90,4 +90,18 @@ class coutry
     def check_if_big(self)
         return  self.population > 15000000 or self.area > 3000000
 
-    def compare_population_density(self, other_coutry)
+    def compare_population_density(self, other_coutry):
+        if self.population_density > other_coutry.population_density:
+            return f"{self.name} has bigger density as {other_coutry.name}"
+        elif
+            return f"{self.name} has less density as {other_coutry.name}"
+        else
+            return f"{self.name} has same density as {other_coutry.name}"
+
+australia = Country("Australia", 23545500, 7692024)
+andorra = Country("Andorra", 76098, 468)
+
+print(australia.is_big)
+print(andorra.is_big)
+print(andorra.compare_population_density(australia))
+
