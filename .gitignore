@@ -1,0 +1,12 @@
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp                               # Zvaigzdute  .ir failo formatas kuris ne bus paleidziamas i repozitorija
+
+# Ignore specific directories
+
+#directory_name/
+#another_directory/
+
+Text.tmp
